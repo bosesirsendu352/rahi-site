@@ -1,0 +1,313 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rahiiiiiii</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="ambient ambient--one"></div>
+    <div class="ambient ambient--two"></div>
+    <div id="heart-layer" class="heart-layer" aria-hidden="true"></div>
+
+    <section id="intro-screen" class="intro-screen">
+      <div class="intro-card panel">
+        <p class="eyebrow">Open First</p>
+        <h1 class="intro-card__title">Download this first.</h1>
+        <p class="intro-card__copy">
+          Tap the file below first.
+        </p>
+
+        <div class="intro-card__file">
+          <div>
+            <p class="intro-card__file-label">Attached file</p>
+            <strong>Full_Text_Presentation-modified.pptx</strong>
+          </div>
+          <span class="intro-card__file-type">PPTX</span>
+        </div>
+
+        <div class="intro-card__actions">
+          <a id="download-link" class="button button--primary" href="./assets/rahi-message.pptx" download="Rahi-Message.pptx">Download the PPT</a>
+        </div>
+      </div>
+    </section>
+
+    <main id="romantic-site" class="page-shell page-shell--hidden" aria-hidden="true">
+      <section class="hero panel">
+        <div class="hero__copy">
+          <p class="eyebrow">For Rahi Das only</p>
+          <div class="sparkle-row" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <h1>
+            For my <span>Rahiiiiiii</span>,
+            my <span>Babyyyy</span>,
+            my <span>Titir pakhi</span>
+          </h1>
+          <p class="hero__lead">
+            Your smile, your eyes, your softness, and the chaos you bring into my heart.
+          </p>
+
+          <div class="compliment-strip">
+            <span>too pretty</span>
+            <span>kissable</span>
+            <span>dangerously cute</span>
+            <span>my favorite girl</span>
+          </div>
+
+          <div class="hero__actions">
+            <button id="nickname-button" class="button button--primary" type="button">Call her something cute</button>
+            <button id="mission-button" class="button button--ghost" type="button">Reveal today's flirty mission</button>
+            <a class="button button--song" href="#song-section">Our song</a>
+          </div>
+
+          <div class="response-grid">
+            <article class="response-card">
+              <p class="response-card__label">Current nickname</p>
+              <h2 id="nickname-output">Rahiiiiiii, the prettiest distraction alive.</h2>
+            </article>
+            <article class="response-card">
+              <p class="response-card__label">Today's mission</p>
+              <h2 id="mission-output">Press the button.</h2>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <div class="portrait portrait--main" data-photo-slot="main">
+            <div class="portrait__glow"></div>
+          </div>
+          <div class="floating-note">
+            <p>"If beauty had a laugh, it would sound like yours..."</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="story-grid">
+        <article class="panel love-note">
+          <p class="eyebrow">Tiny confession</p>
+          <h2>This is just for you.</h2>
+          <p>
+            A small page for a very big effect.
+          </p>
+        </article>
+
+        <article class="panel meter-card">
+          <p class="eyebrow">Love meter</p>
+          <h2>How dangerously charming is Babyyyy today?</h2>
+          <div class="meter">
+            <div id="meter-fill" class="meter__fill"></div>
+          </div>
+          <p id="meter-output" class="meter-card__output">Tap the button and let the truth appear.</p>
+          <button id="meter-button" class="button button--primary" type="button">Measure the damage</button>
+        </article>
+      </section>
+
+      <section id="song-section" class="panel song-panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Our song</p>
+            <h2>Play this one inside the page</h2>
+          </div>
+          <p class="section-heading__copy">
+            One tap, one song, one soft little moment.
+          </p>
+        </div>
+
+        <div class="song-panel__grid">
+          <article class="song-card">
+            <p class="song-card__label">Now playing for her</p>
+            <h3>Keep Me</h3>
+            <p class="song-card__copy">
+              Press play and let the page keep the mood going.
+            </p>
+            <a class="button button--primary song-card__button" href="https://www.youtube.com/watch?v=fNPHOgSHf3I" target="_blank" rel="noreferrer">Play the song</a>
+            <p class="song-card__hint">
+              If the built-in player is blocked on her phone, this button opens the song directly.
+            </p>
+          </article>
+
+          <div class="song-frame-wrap">
+            <iframe
+              class="song-frame"
+              src="https://www.youtube-nocookie.com/embed/fNPHOgSHf3I?rel=0&playsinline=1"
+              title="Our song"
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel interactive-panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">More Magic</p>
+            <h2>Touch anything and let the flirting react</h2>
+          </div>
+          <p class="section-heading__copy">
+            Small clicks. Big smiles.
+          </p>
+        </div>
+
+        <div class="interactive-grid">
+          <article class="mini-game mini-game--wide">
+            <h3>Secret envelope</h3>
+            <p>Open a private little note written for Rahiiiiiii only.</p>
+            <button id="secret-button" class="button button--primary" type="button">Open the secret note</button>
+            <p id="secret-output" class="mini-game__output">A sealed message is waiting here.</p>
+          </article>
+
+          <article class="mini-game">
+            <h3>Date vibe picker</h3>
+            <p>Choose tonight's mood and let the page answer back.</p>
+            <div class="choice-row">
+              <button class="button button--ghost choice-button" data-date-choice="soft" type="button">Soft date</button>
+              <button class="button button--ghost choice-button" data-date-choice="chaotic" type="button">Chaotic date</button>
+              <button class="button button--ghost choice-button" data-date-choice="luxury" type="button">Luxury date</button>
+            </div>
+            <p id="date-output" class="mini-game__output">Waiting for Babyyyy to choose the vibe.</p>
+          </article>
+
+          <article class="mini-game">
+            <h3>Kiss counter</h3>
+            <p>Tap every time she deserves another kiss. So basically... a lot.</p>
+            <button id="kiss-button" class="button button--primary" type="button">Steal a kiss</button>
+            <p id="kiss-output" class="mini-game__output">Kisses collected: 0</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel gallery-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Pretty girl gallery</p>
+            <h2>A photo wall that finally does her justice</h2>
+          </div>
+          <p class="section-heading__copy">
+            Just the photos. No excuses.
+          </p>
+        </div>
+
+        <div class="gallery">
+          <article class="portrait portrait--editorial" data-photo-slot="second"></article>
+          <article class="portrait portrait--feature" data-photo-slot="fifth"></article>
+          <article class="portrait portrait--tall" data-photo-slot="third"></article>
+          <article class="panel quote-card quote-card--wide">
+            <p class="eyebrow">Certified facts</p>
+            <ul class="fact-list">
+              <li>Rahi is prettier than any sunset I have ever pretended to care about.</li>
+              <li>Babyyyy has a face that deserves compliments every five minutes.</li>
+              <li>Titir pakhi carries maximum cuteness with suspicious elegance.</li>
+            </ul>
+            <p class="quote-card__footer">Verdict: outrageously beautiful and fully guilty of stealing attention.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel saree-panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Saree Section</p>
+            <h2>The saree gallery because she looks unreal in one</h2>
+          </div>
+          <p class="section-heading__copy">
+            Because one saree photo was never going to be enough.
+          </p>
+        </div>
+
+        <div class="saree-grid">
+          <article class="portrait portrait--saree-large" data-photo-slot="sixth"></article>
+
+          <article class="portrait portrait--saree-tall" data-photo-slot="seventh"></article>
+
+          <article class="portrait portrait--saree-small" data-photo-slot="eighth"></article>
+
+          <article class="portrait portrait--saree-small" data-photo-slot="ninth"></article>
+
+          <article class="portrait portrait--saree-wide" data-photo-slot="tenth"></article>
+
+          <article class="portrait portrait--saree-small" data-photo-slot="eleventh"></article>
+
+          <article class="portrait portrait--saree-tall" data-photo-slot="twelfth"></article>
+        </div>
+      </section>
+
+      <section class="panel funny-panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Funny Section</p>
+            <h2>Official case file against Rahi for being too cute and too dramatic</h2>
+          </div>
+          <p class="section-heading__copy">
+            Evidence of adorable nonsense.
+          </p>
+        </div>
+
+        <div class="funny-grid">
+          <article class="portrait portrait--funny" data-photo-slot="fourth"></article>
+
+          <article class="mini-game funny-card">
+            <h3>Rahi Mood Detector</h3>
+            <p>Press the button and let science fail to explain what version of Rahi just entered the room.</p>
+            <button id="funny-button" class="button button--primary" type="button">Detect the chaos</button>
+            <p id="funny-output" class="mini-game__output">Current reading: suspiciously cute and probably planning something.</p>
+            <div class="funny-charges">
+              <p class="funny-charges__title">Current allegations</p>
+              <ul class="fact-list">
+                <li>Stealing attention without warning.</li>
+                <li>Laughing in a way that destroys seriousness.</li>
+                <li>Acting innocent while clearly being the source of chaos.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel game-panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Flirty games</p>
+            <h2>Three playful ways to make her blush</h2>
+          </div>
+          <p class="section-heading__copy">
+            Quick, soft, and personal.
+          </p>
+        </div>
+
+        <div class="game-grid">
+          <article class="mini-game">
+            <h3>Pick your title</h3>
+            <p>Let the page decide what she should be called this very second.</p>
+            <button id="title-button" class="button button--ghost" type="button">Spin the title</button>
+            <p id="title-output" class="mini-game__output">Current answer: The queen of my attention.</p>
+          </article>
+
+          <article class="mini-game">
+            <h3>Sweet or savage?</h3>
+            <p>One click reveals whether today she gets kisses, chaos, or both.</p>
+            <button id="mood-button" class="button button--ghost" type="button">Reveal her vibe</button>
+            <p id="mood-output" class="mini-game__output">Current answer: Untested but definitely dangerous.</p>
+          </article>
+
+          <article class="mini-game">
+            <h3>Press for a blush</h3>
+            <p>Every tap sends out a new flirty line designed for maximum smile probability.</p>
+            <button id="blush-button" class="button button--ghost" type="button">Send flirt</button>
+            <p id="blush-output" class="mini-game__output">Current answer: Waiting to be adorably embarrassed.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="./src/app.js" defer></script>
+  </body>
+</html>
